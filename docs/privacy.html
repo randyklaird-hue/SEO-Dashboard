@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — SEO Dashboard for Google Sheets</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; color: #202124; line-height: 1.7; }
+    a { color: #1a73e8; }
+    nav {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 48px; border-bottom: 1px solid #e8eaed;
+    }
+    .nav-logo { font-weight: 700; font-size: 18px; color: #202124; }
+    .nav-logo span { color: #1a73e8; }
+    .content { max-width: 760px; margin: 0 auto; padding: 60px 24px; }
+    h1 { font-size: 32px; margin-bottom: 8px; }
+    .updated { color: #5f6368; font-size: 14px; margin-bottom: 40px; }
+    h2 { font-size: 20px; font-weight: 600; margin: 36px 0 12px; }
+    p { color: #3c4043; margin-bottom: 16px; }
+    ul { padding-left: 24px; color: #3c4043; margin-bottom: 16px; }
+    ul li { margin-bottom: 8px; }
+    footer {
+      background: #202124; color: #9aa0a6; padding: 32px 48px;
+      text-align: center; font-size: 14px; margin-top: 80px;
+    }
+    footer a { color: #9aa0a6; }
+    .footer-links { display: flex; gap: 24px; justify-content: center; margin-bottom: 12px; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">SEO <span>Dashboard</span></a>
+</nav>
+
+<div class="content">
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: June 2025</p>
+
+  <p>This Privacy Policy describes how the SEO Dashboard for Google Sheets add-on ("the Add-on", "we", "us") handles your information when you use it.</p>
+
+  <h2>1. Data We Access</h2>
+  <p>The Add-on requests read-only access to the following Google services via OAuth 2.0:</p>
+  <ul>
+    <li><strong>Google Search Console</strong> — query performance data including keywords, clicks, impressions, CTR, and average position for your verified properties.</li>
+    <li><strong>Google Analytics 4</strong> — sessions, users, conversions, traffic channels, landing pages, and geographic data for your GA4 properties.</li>
+    <li><strong>Google Sheets</strong> — to write report data into the spreadsheet where the Add-on is installed.</li>
+  </ul>
+
+  <h2>2. How We Use Your Data</h2>
+  <p>All data accessed by the Add-on is used solely to populate the report tabs within your Google Spreadsheet. Specifically:</p>
+  <ul>
+    <li>Search Console and Analytics data is fetched in real time when you run the report.</li>
+    <li>The data is written directly to your spreadsheet and nowhere else.</li>
+    <li>No data is transmitted to any external server operated by us or any third party.</li>
+  </ul>
+
+  <h2>3. Data Storage</h2>
+  <p>The Add-on does not store your Search Console or Analytics data outside of your Google Spreadsheet. Your configuration settings (site URL, GA4 Property ID, date range) are stored in a hidden sheet within your spreadsheet and never leave your Google account.</p>
+
+  <h2>4. Data Sharing</h2>
+  <p>We do not sell, share, rent, or transfer your data to any third parties. Your data stays within your Google account at all times.</p>
+
+  <h2>5. Google API Services</h2>
+  <p>The Add-on's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>6. Permissions</h2>
+  <p>The Add-on requests only the minimum OAuth scopes necessary to function:</p>
+  <ul>
+    <li><code>webmasters.readonly</code> — read-only access to Search Console data</li>
+    <li><code>analytics.readonly</code> — read-only access to Google Analytics data</li>
+    <li><code>spreadsheets</code> — read/write access to the spreadsheet the Add-on is installed in</li>
+    <li><code>script.container.ui</code> — display the configuration dialog within Sheets</li>
+    <li><code>script.scriptapp</code> — create and manage scheduled triggers for automatic report refresh</li>
+  </ul>
+
+  <h2>7. Children's Privacy</h2>
+  <p>The Add-on is not directed at children under the age of 13 and we do not knowingly collect data from children.</p>
+
+  <h2>8. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last updated" date above. Continued use of the Add-on after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>9. Contact</h2>
+  <p>If you have questions about this Privacy Policy, please contact us at <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>.</p>
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </div>
+  <div>© 2025 SEO Dashboard. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
